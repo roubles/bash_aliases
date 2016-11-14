@@ -1,4 +1,4 @@
-# bashrc
+# bash_aliases
 
 The goal of this repo is to standardize commonly used bash aliases. Here are some examples.
 
