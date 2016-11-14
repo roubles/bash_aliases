@@ -23,7 +23,7 @@ alias 2d="cd ..;cd .."
 
 ## Nifty searches:
 ```
-alias lg="ls -AF | grep"           # Grep through filenames (also see, hg)
+alias lg="ls -AF | grep"            # Grep through filenames (also see, hg)
 alias hg="history | grep"           # Search history for string
 ```
 
