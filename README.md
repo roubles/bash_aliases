@@ -11,8 +11,8 @@ alias l.="ls -A | egrep '^\.'"      # List only dotfiles (hidden files)
 
 ## tar aliases
 ```
-alias tarc="tar czvf"
-alias tarx="tar xzvf"
+alias tarc="tar czvf"               # Create a tar
+alias tarx="tar xzvf"               # Extract a tar
 ```
 
 ## cd aliases
@@ -24,7 +24,7 @@ alias 2d="cd ..;cd .."
 ## Nifty searches:
 ```
 alias lg="ls -AF | grep"           # Grep through filenames (also see, hg)
-alias hg='history | grep'
+alias hg="history | grep"           # Search history for string
 ```
 
 Pull requests welcome. Any alias should be platform independent as much as possible.
