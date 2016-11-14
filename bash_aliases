@@ -11,9 +11,9 @@ alias ld="ls -d */"                 # List only directories
 alias l.="ls -A | egrep '^\.'"      # List only dotfiles (hidden files)
 alias l1='ls -1AF'                  # List files (one line at a time)
 alias ll="ls -lhAF"                 # List all file details
-alias lg="ls -AF | grep "           # Grep through filenames (also see, hg)
+alias lg="ls -AF | grep"           # Grep through filenames (also see, hg)
 alias lp="ls -d `pwd`/*"            # List full paths
-alias lpg="ls -d `pwd`/* | grep "   # Grep through filenames but list full path
+alias lpg="ls -d `pwd`/* | grep"   # Grep through filenames but list full path
 alias lt="ls -Alt"                  # Sort by time
 alias ltr="ls -Altr"                # Sort by time (reverse)
 alias lss="ls -AFlS"                # Sort by size
@@ -37,7 +37,7 @@ alias tart="tar tzvf"
 ###############################################################################
 ##
 #history
-alias hg='history | grep '
+alias hg='history | grep'
 
 ###############################################################################
 ##
